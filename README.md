@@ -26,25 +26,31 @@ markdown
 ## 🧩 Installation
 ### 1️⃣ Clone this repo
 
+````
 git clone https://github.com/yourusername/query-bot.git
 
 cd query-bot
+````
 
 ### 2️⃣ Create a virtual environment (optional but recommended)
 
+```
 python -m venv venv
 
 source venv/bin/activate  # On Windows: venv\Scripts\activate
+```
 
 ### 3️⃣ Install dependencies
 
+```
 pip install -r requirements.txt
+```
 
 ### 4️⃣ Add your Gemini API key
 
 In app.py, replace:
 
-genai.configure(api_key="YOUR_GEMINI_API_KEY")
+``` genai.configure(api_key="YOUR_GEMINI_API_KEY")```
 
 with your actual key, or set it as an environment variable.
 
@@ -52,7 +58,7 @@ with your actual key, or set it as an environment variable.
 
 python app.py
 
-Visit http://127.0.0.1:5000 in your browser.
+```Visit http://127.0.0.1:5000 in your browser.```
 
 ## 📝 Customization
 Change the prompt styling in app.py
